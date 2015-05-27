@@ -1,0 +1,6 @@
+app:
+  build: .
+  volumes:
+    - .:/opt/app
+    - ~/.sbt:/root/.sbt
+    - ~/.ivy2:/root/.ivy2
